@@ -12,12 +12,12 @@ body {
 }
 
 .logo {
-  width: 80px;
+  width: 8vw; /* escala con la pantalla */
   margin-right: 15px;
 }
 
 .barra-superior h1 {
-  font-size: 32px;
+  font-size: 3vw; /* grande en PC, proporcional en móvil */
   margin: 0;
 }
 
@@ -25,34 +25,34 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 40px;
+  padding: 5vw;
 }
 
 .T h1 {
   font-family: 'Times New Roman', Times, serif;
-  font-size: 80px;   /* grande en PC */
-  margin: 20px 0;
+  font-size: 10vw; /* título enorme pero adaptable */
+  margin: 2vw 0;
 }
 
 .T p {
   font-family: 'Times New Roman', Times, serif;
-  font-size: 28px;
-  margin: 10px 0;
+  font-size: 3vw;
+  margin: 1vw 0;
 }
 
 .c-b {
-  margin-top: 20px;
+  margin-top: 2vw;
 }
 
 .b {
   font-family: Cambria, Georgia, serif;
   display: inline-block;
-  padding: 15px 30px;
+  padding: 1vw 2vw;
   background: #007BFF;
   color: white;
   text-decoration: none;
-  border-radius: 5px;
-  font-size: 22px;
+  border-radius: 0.5vw;
+  font-size: 2vw;
 }
 
 .b:hover {
@@ -60,33 +60,21 @@ body {
 }
 
 .i img {
-  width: 450px;   /* grande en PC */
+  width: 30vw; /* imagen grande en PC, proporcional en móvil */
   height: auto;
+  margin-top: 2vw;
 }
 
-/* Responsive para móvil */
-@media (max-width: 768px) {
+/* Ajuste extra para pantallas muy pequeñas */
+@media (max-width: 600px) {
   .c-t {
-    flex-direction: column; /* texto arriba, imagen abajo */
+    flex-direction: column;
     text-align: center;
   }
 
-  .T h1 {
-    font-size: 50px; /* sigue grande en móvil */
-  }
-
-  .T p {
-    font-size: 22px;
-  }
-
   .i img {
-    width: 300px; /* grande pero proporcional en móvil */
-    margin-top: 20px;
-  }
-
-  .b {
-    font-size: 20px;
-    padding: 12px 24px;
+    width: 60vw;
+    margin-top: 5vw;
   }
 }
 
