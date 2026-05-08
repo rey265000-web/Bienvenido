@@ -8,16 +8,16 @@ body {
   color: white;
   display: flex;
   align-items: center;
-  padding: 10px 20px;
+  padding: 1vw 2vw;
 }
 
 .logo {
-  width: 8vw; /* escala con la pantalla */
-  margin-right: 15px;
+  width: 6vw;
+  margin-right: 1vw;
 }
 
 .barra-superior h1 {
-  font-size: 3vw; /* grande en PC, proporcional en móvil */
+  font-size: 2.5vw;
   margin: 0;
 }
 
@@ -30,7 +30,7 @@ body {
 
 .T h1 {
   font-family: 'Times New Roman', Times, serif;
-  font-size: 10vw; /* título enorme pero adaptable */
+  font-size: 10vw; /* escala con pantalla */
   margin: 2vw 0;
 }
 
@@ -60,7 +60,7 @@ body {
 }
 
 .i img {
-  width: 30vw; /* imagen grande en PC, proporcional en móvil */
+  width: 30vw; /* grande en PC, proporcional en móvil */
   height: auto;
   margin-top: 2vw;
 }
