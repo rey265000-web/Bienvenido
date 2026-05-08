@@ -1,61 +1,83 @@
 body {
   margin: 0;
-  font-family: 'Roboto', Arial, sans-serif;
+  font-family: Arial, sans-serif;
+  text-align: center;
 }
 
-.banner {
-  background: linear-gradient(to bottom, #6a0dad 50%, #fff 50%);
-  min-height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.barra-superior {
+  background-color: rgb(5, 30, 171);
+  color: white;
+  display: flex;        
+  align-items: center;   
+  padding: 10px 20px;
 }
 
-.contenido {
-  display: flex;
+.logo {
+  width: 60px;            
+  margin-right: 15px;     
+}
+
+h1 {
+  font-size: 24px;
+  margin: 0;
+}
+.c-t {
+  display: flex;              
   justify-content: space-between;
   align-items: center;
-  width: 90%;
-  max-width: 1200px;
+  padding: 20px;
+}
+.T h1 {
+    font-family:'Times New Roman', Times, serif;
+    font-size: 150px;
+    padding: 100px;
+    width: 500px;
+    height: auto;
+}
+.T p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    padding: 100px;
+    width: 500px;
+    height: auto;
+    margin-top: -170px;
+}
+.T p {
+    font-size: 30px;
+    padding: 100px;
+    width: 500px;
+    height: auto;
+}
+.c-b {
+text-align: left;
+font-size: 30px;
+width: 150x;
+height: auto;
+margin: 250px;
+margin-top: -100px;
+}
+.b {
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+display: inline-block;
+margin-top: 20px;
+padding: 10px 20px;
+background: #007BFF;
+color: white;
+text-decoration: none;
+border-radius: 5px;
+
 }
 
-.texto {
-  flex: 1;
-  color: #fff;
+.b:hover {
+  background: #0056b3;
 }
-
-.texto h1 {
-  font-size: 48px;
-  margin-bottom: 20px;
-}
-
-.boton {
-  display: inline-block;
-  padding: 12px 24px;
-  background-color: #ff007f; /* rosa */
-  color: #fff;
-  text-decoration: none;
-  border-radius: 6px;
-  font-weight: bold;
-  transition: background-color 0.3s ease;
-}
-
-.boton:hover {
-  background-color: #cc0066;
-}
-
-.link {
-  margin-top: 15px;
-  color: #fff200; /* amarillo */
-  font-weight: bold;
-}
-
-.imagen {
-  flex: 1;
-  text-align: right;
-}
-
-.imagen img {
-  max-width: 100%;
-  height: auto;
+ .i img {
+width: 1000px;
+height: auto;
+margin-top: -150px;
+  }
+@media (max-width: 600px) {
+  .i img {
+    width: 150px;
+  }
 }
