@@ -60,7 +60,7 @@ body {
 }
 
 .i img {
-  width: 30vw; /* grande en PC, proporcional en móvil */
+  width: 60vw; /* grande en PC, proporcional en móvil */
   height: auto;
   margin-top: 2vw;
 }
