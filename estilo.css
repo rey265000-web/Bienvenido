@@ -23,9 +23,15 @@ body {
 
 .c-t {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  justify-content: center; /* centra el bloque */
+  align-items: flex-start;
+  gap: 40px; /* espacio entre texto e imagen */
   padding: 40px;
+}
+
+.T {
+  flex: 1;
+  text-align: left;
 }
 
 .T h1 {
@@ -59,7 +65,7 @@ body {
 }
 
 .i img {
-  width: 300px;
+  max-width: 400px; /* más grande en PC */
   height: auto;
 }
 
@@ -70,16 +76,16 @@ body {
     text-align: center;
   }
 
+  .i img {
+    max-width: 200px;
+    margin-top: 20px;
+  }
+
   .T h1 {
     font-size: 32px;
   }
 
   .T p {
     font-size: 18px;
-  }
-
-  .i img {
-    width: 150px;
-    margin-top: 20px;
   }
 }
