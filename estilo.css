@@ -1,7 +1,6 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  text-align: center;
 }
 
 .barra-superior {
@@ -17,7 +16,7 @@ body {
   margin-right: 15px;
 }
 
-h1 {
+.barra-superior h1 {
   font-size: 24px;
   margin: 0;
 }
@@ -26,7 +25,7 @@ h1 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px;
+  padding: 40px;
 }
 
 .T h1 {
@@ -42,15 +41,12 @@ h1 {
 }
 
 .c-b {
-  text-align: left;
-  font-size: 20px;
-  margin: 20px 0;
+  margin-top: 20px;
 }
 
 .b {
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: Cambria, Georgia, serif;
   display: inline-block;
-  margin-top: 20px;
   padding: 10px 20px;
   background: #007BFF;
   color: white;
@@ -65,10 +61,15 @@ h1 {
 .i img {
   width: 300px;
   height: auto;
-  margin-top: 20px;
 }
 
-@media (max-width: 600px) {
+/* Responsive para móvil */
+@media (max-width: 768px) {
+  .c-t {
+    flex-direction: column;
+    text-align: center;
+  }
+
   .T h1 {
     font-size: 32px;
   }
@@ -79,5 +80,6 @@ h1 {
 
   .i img {
     width: 150px;
+    margin-top: 20px;
   }
 }
